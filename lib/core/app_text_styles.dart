@@ -25,12 +25,11 @@ class AppTextStyles {
   static final TextStyle labelStyle = GoogleFonts.inter(
     color: AppColors.text,
     fontSize: 22,
-    fontWeight: FontWeight.w400,
   );
 
   static final TextStyle placeholder = GoogleFonts.inter(
     color: AppColors.placeholder,
-    fontSize: 15,
+    fontSize: 16,
     fontWeight: FontWeight.w400,
   );
 }
