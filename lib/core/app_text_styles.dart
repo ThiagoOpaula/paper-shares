@@ -17,7 +17,7 @@ class AppTextStyles {
   );
 
   static final TextStyle forgotMessage = GoogleFonts.inter(
-    color: AppColors.text,
+    color: AppColors.forgotMessage,
     fontSize: 14,
     fontWeight: FontWeight.w400,
   );
@@ -30,6 +30,18 @@ class AppTextStyles {
   static final TextStyle placeholder = GoogleFonts.inter(
     color: AppColors.placeholder,
     fontSize: 16,
+    fontWeight: FontWeight.w400,
+  );
+
+  static final TextStyle buttonText = GoogleFonts.inter(
+    color: AppColors.buttonText,
+    fontSize: 14,
+    fontWeight: FontWeight.w500,
+  );
+
+  static final TextStyle altcoinBox = GoogleFonts.inter(
+    color: AppColors.altcoinBox,
+    fontSize: 20,
     fontWeight: FontWeight.w400,
   );
 }

@@ -5,6 +5,8 @@ class AppColors {
 
   static final Color text = Color(0xFFEBEBF0);
 
+  static final Color forgotMessage = Color(0xFF3FA5FF);
+
   static final Color inputBackground = Color(0xFF1B1B22);
   static final Color inputText = Color(0xFFEBEBF0);
   static final Color inputBorder = Color(0xFF177CD3);
@@ -12,6 +14,7 @@ class AppColors {
 
   static final Color button = Color(0xFF177CD3);
   static final Color buttonText = Color(0xFFFFFFFF);
+  static final Color altcoinBox = Color(0xFFFFFFFF);
 
   static final Color icon = Color(0xFF177CD3);
 
