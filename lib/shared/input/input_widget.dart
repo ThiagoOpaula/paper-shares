@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:papershare/core/app_text_styles.dart';
-import 'package:papershare/core/core.dart';
+import 'package:paper_shares/core/app_text_styles.dart';
+import 'package:paper_shares/core/core.dart';
 
 typedef void IntCallback(String email);
 
