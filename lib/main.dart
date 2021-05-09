@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:papershare/login/login_page.dart';
+import 'dashboard/dashboard_page.dart';
 //import 'package:papershare/splash/splash_page.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: LoginPage(),
+      home: DashboardPage(),
     );
   }
 }
