@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:papershare/core/core.dart';
+import 'package:paper_shares/core/core.dart';
 
 class AltcoinBox extends StatelessWidget {
   const AltcoinBox({Key key}) : super(key: key);

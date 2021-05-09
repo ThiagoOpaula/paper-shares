@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:papershare/login/login_page.dart';
+//import 'package:paper_shares/login/login_page.dart';
 import 'dashboard/dashboard_page.dart';
 //import 'package:papershare/splash/splash_page.dart';
 

@@ -1,8 +1,8 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:papershare/core/app_colors.dart';
-import 'package:papershare/core/app_images.dart';
+import 'package:paper_shares/core/app_colors.dart';
+import 'package:paper_shares/core/app_images.dart';
 
 class SplashPage extends StatelessWidget {
   @override

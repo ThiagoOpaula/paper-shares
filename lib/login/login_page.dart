@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:papershare/core/core.dart';
-import 'package:papershare/login/widgets/Button_widget.dart';
-import 'package:papershare/shared/input/input_widget.dart';
+import 'package:paper_shares/core/core.dart';
+import 'package:paper_shares/login/widgets/Button_widget.dart';
+import 'package:paper_shares/shared/input/input_widget.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key key}) : super(key: key);
