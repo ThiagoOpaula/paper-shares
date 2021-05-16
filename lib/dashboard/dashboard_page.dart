@@ -26,7 +26,7 @@ class _DashboardPageState extends State<DashboardPage> {
     return Scaffold(
       backgroundColor: AppColors.background,
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(60),
+        preferredSize: const Size.fromHeight(60),
         child: SafeArea(
           child: Image.asset(
             AppImages.icon,
@@ -34,7 +34,7 @@ class _DashboardPageState extends State<DashboardPage> {
         ),
       ),
       body: Padding(
-        padding: EdgeInsets.symmetric(vertical: 60, horizontal: 32),
+        padding: const EdgeInsets.symmetric(vertical: 60, horizontal: 32),
         child: Column(
           children: [
             InputWidget(
@@ -45,8 +45,8 @@ class _DashboardPageState extends State<DashboardPage> {
               label: 'search',
               placeholder: 'pesquise alguma altcoin',
             ),
-            SizedBox(height: 24),
-            AltcoinBox(),
+            const SizedBox(height: 24),
+            const AltcoinBox(),
           ],
         ),
       ),

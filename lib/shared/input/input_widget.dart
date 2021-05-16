@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:paper_shares/core/app_text_styles.dart';
 import 'package:paper_shares/core/core.dart';
 
-typedef void IntCallback(String email);
+typedef IntCallback = void Function(String email);
 
 class InputWidget extends StatelessWidget {
   final String label;
@@ -10,7 +10,7 @@ class InputWidget extends StatelessWidget {
   final bool hideText;
   final IntCallback onSonChanged;
 
-  InputWidget(
+  const InputWidget(
       {Key key, this.label, this.placeholder, this.hideText, this.onSonChanged})
       : super(key: key);
 
@@ -23,21 +23,22 @@ class InputWidget extends StatelessWidget {
         onSonChanged(value);
       },
       decoration: InputDecoration(
-        suffixIcon: hideText ? Icon(Icons.lock) : Icon(Icons.person),
+        suffixIcon:
+            hideText ? const Icon(Icons.lock) : const Icon(Icons.person),
         hintText: placeholder,
         hintStyle: AppTextStyles.placeholder,
         fillColor: AppColors.inputBackground,
         filled: true,
         border: InputBorder.none,
         enabledBorder: OutlineInputBorder(
-          borderSide: BorderSide(
+          borderSide: const BorderSide(
             color: AppColors.inputBackground,
             width: 2,
           ),
           borderRadius: BorderRadius.circular(10.0),
         ),
         focusedBorder: OutlineInputBorder(
-          borderSide: BorderSide(color: AppColors.inputBorder),
+          borderSide: const BorderSide(color: AppColors.inputBorder),
           borderRadius: BorderRadius.circular(10.0),
         ),
         labelText: label,

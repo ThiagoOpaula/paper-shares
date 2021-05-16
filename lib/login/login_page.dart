@@ -37,9 +37,9 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       body: Container(
-        decoration: BoxDecoration(color: AppColors.background),
+        decoration: const BoxDecoration(color: AppColors.background),
         child: Padding(
-          padding: EdgeInsets.symmetric(vertical: 60, horizontal: 32),
+          padding: const EdgeInsets.symmetric(vertical: 60, horizontal: 32),
           child: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -53,7 +53,7 @@ class _LoginPageState extends State<LoginPage> {
                   'Paper Shares',
                   style: AppTextStyles.title,
                 ),
-                SizedBox(height: 24),
+                const SizedBox(height: 24),
                 InputWidget(
                   onSonChanged: (String email) {
                     updateEmail(email);
@@ -62,7 +62,7 @@ class _LoginPageState extends State<LoginPage> {
                   label: 'Username',
                   placeholder: 'insira seu e-mail',
                 ),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 InputWidget(
                   onSonChanged: (String senha) {
                     updateSenha(senha);
@@ -71,14 +71,14 @@ class _LoginPageState extends State<LoginPage> {
                   label: 'Password',
                   placeholder: 'insira sua senha',
                 ),
-                SizedBox(height: 24),
+                const SizedBox(height: 24),
                 ButtonWidget(
                     buttonText: 'login',
                     onButtonPressed: () {
                       login();
                     }),
-                ButtonWidget(buttonText: 'Cadastra-se'),
-                SizedBox(height: 24),
+                const ButtonWidget(buttonText: 'Cadastra-se'),
+                const SizedBox(height: 24),
                 Text(
                   'Oh no! I forgot my password',
                   style: AppTextStyles.forgotMessage,
