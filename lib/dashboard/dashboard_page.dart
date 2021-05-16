@@ -46,7 +46,24 @@ class _DashboardPageState extends State<DashboardPage> {
               placeholder: 'pesquise alguma altcoin',
             ),
             const SizedBox(height: 24),
-            const AltcoinBox(),
+            Container(
+              height: 500,
+              child: ListView(
+                padding: const EdgeInsets.all(8),
+                children: const [
+                  AltcoinBox(),
+                  Divider(),
+                  AltcoinBox(),
+                  Divider(),
+                  AltcoinBox(),
+                  Divider(),
+                  AltcoinBox(),
+                  Divider(),
+                  AltcoinBox(),
+                  Divider(),
+                ],
+              ),
+            )
           ],
         ),
       ),

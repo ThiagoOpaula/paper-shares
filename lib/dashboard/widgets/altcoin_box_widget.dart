@@ -19,9 +19,12 @@ class AltcoinBox extends StatelessWidget {
             Text('coin', style: AppTextStyles.altcoinBox),
             Row(
               children: [
-                const Icon(
-                  Icons.bookmark_outline,
-                  color: AppColors.icon,
+                const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16.0),
+                  child: Icon(
+                    Icons.bookmark_outline,
+                    color: AppColors.icon,
+                  ),
                 ),
                 Column(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
