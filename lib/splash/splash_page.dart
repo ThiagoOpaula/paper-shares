@@ -9,7 +9,7 @@ class SplashPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        decoration: BoxDecoration(color: AppColors.background),
+        decoration: const BoxDecoration(color: AppColors.background),
         child: Center(
           child: Image.asset(
             AppImages.icon,

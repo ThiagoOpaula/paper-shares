@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:paper_shares/core/core.dart';
 
-typedef void IntCallback();
+typedef IntCallback = void Function();
 
 class ButtonWidget extends StatelessWidget {
   final String buttonText;
@@ -20,7 +20,7 @@ class ButtonWidget extends StatelessWidget {
           onButtonPressed();
         },
         child: SizedBox.fromSize(
-          size: Size(312, 40),
+          size: const Size(312, 40),
           child: Center(
               child: Text(
             buttonText,

@@ -19,7 +19,7 @@ class AltcoinBox extends StatelessWidget {
             Text('coin', style: AppTextStyles.altcoinBox),
             Row(
               children: [
-                Icon(
+                const Icon(
                   Icons.bookmark_outline,
                   color: AppColors.icon,
                 ),
